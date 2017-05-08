@@ -1,0 +1,7 @@
+---
+# Have some handler for a service
+ - name: Restart Service mydaemon
+   service:
+    name: mydaemon
+    state: restarted
+   tags: mydaemon-restart
